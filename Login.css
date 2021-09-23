@@ -15,7 +15,7 @@ a{
 }
 body
 {
-    background-color: #EEB9C7;
+  background-color: #ffffff;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -56,7 +56,7 @@ body
     max-width: 1000px;
     width: 100%;
     height: 800px;
-    background-color: #822fdb;
+    background-color: #283be2;
     clip-path: circle(50% at 50% 50%);
     position:absolute;
     margin-left:-300px;
@@ -74,7 +74,7 @@ body
     margin-left: 350px;
     margin-top: 250px;
     padding: 10px;
-    color: rgb(168, 168, 168);
+    color: rgb(236, 236, 236);
 }
 .contaner .left-contaner .left-info h1{
     color:rgb(255, 255, 255) ;

@@ -15,7 +15,7 @@ a{
 }
 body
 {
-    background-color: #EEB9C7;
+    background-color: #ffffff;
     align-items: center;
     justify-content: center;
     overflow: hidden;
@@ -51,14 +51,14 @@ body
 }
 .contaner .left-contaner
 {
-    width: 900px;
+    width: 950px;
     height: 700px;
-    background-color: #822fdb;
+    background-color: #283be2;
     clip-path: polygon(100% 0, 0% 100%, 100% 100%);
     position: relative;
     top: 0vw;
     margin-top: -50px;
-    margin-left: 600px;
+    margin-left: 550px;
     border-top-right-radius: 100px;
     
 }
@@ -220,6 +220,7 @@ body
 {
     width: 150px;
     margin-left: 30px;
+    border: 1px solid white;
 }
   .left-contaner .reg-info
   {

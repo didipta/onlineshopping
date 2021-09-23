@@ -4,67 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Login.css">
-    <title>Log In</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Index page</title>
 </head>
 <body>
-    <div class="contaner">
 
-
-        <div class="left-contaner">
-            <div class="logo">
-                <h1>LOGO</h1>
-            </div>
-            <div class="left-info">
-                <h1>Hello friend!!</h1>
-                <p>Are you new to this website? Do you like what we 
-                    offer ? you should totally join our website and experience
-                    community.</p>
-                <a href="Registertion.html"><button class="btn">Register....</button></a>
-            </div>
-            
+    <div class="navigation">
+        <div class="logo">
+            <img src="logo.png" alt="">
+            <h1><span style="color: rgb(250, 3, 229); font-family: 'Lobster', cursive;">E</span>flip</h1>
         </div>
-        <div class="signin-title">
-            <h1>WELCOME BACK :)</h1>
-            <p>To keep connected with us please login with your personal 
-                information by user-name and password.</p>
-
-                <form action="sliderpage.html" class="sign-in-form" method="POST" >
-                    <div class="input-field">
-                        <i class="fa fa-user-o" aria-hidden="true"></i>
-                        <input type="text" name="uname" id="uname" placeholder="user name" required />
-                    </div>
-                    <div class="input-field">
-                        <i class="fa fa-unlock-alt" aria-hidden="true"></i>
-                        <input type="password" name="password" id="password" placeholder="password" required />
-        
-                       <div class="eye" onclick=" password() "><i class="fa fa-eye" aria-hidden="true" id="eye" ></i></div> 
-        
-                    </div>
-                    <a href="#" style="margin-left: 10px; font-size: 0.9rem; color: rgb(110, 110, 110);">Forgotten password?</a><br>
-                    <input type="submit" value="Sign In" class="btn">
-                    <p class="social-text">Or Sign in with social platforms</p>
-                    <div class="social-media">
-                      <a href="#" class="social-icon">
-                        <i class="fa fa-facebook-f"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fa fa-twitter"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fa fa-google"></i>
-                      </a>
-                      <a href="#" class="social-icon">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        
-                      </a>
-                    </div>
-                  </form>
-        </div>
-        
-    
-
+        <ul>
+            <li><a href="">PRODUCTS</a></li>
+            <li><a href="">COMPANY</a></li>
+            <li><a href="">PARTNERS</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="">CONTACT US</a></li>
+        </ul>
     </div>
-    <script src="registertion.js"></script>
+    <div class="container">
+      <div class="title">
+          <h1>ONLINE SHOPPING</h1>
+          <h3>ALL PRODUCT AVAILABLE</h3>
+          <p>Online shopping is the process of buying goods and services
+            from merchants who sell on the Internet. Since the emergence
+            of the World Wide Web, merchants have sought to sell their 
+            products to people who surf the Internet. Shoppers can visit web 
+            stores from the comfort of their homes and shop as they sit in front 
+            of the computer.</p>
+            <a href="login.html"><button>LOG IN</button></a>
+      </div>
+     
+    </div>
+
+    <div class="socail-app">
+        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-google" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        <a href=""><i class="fa fa-phone" aria-hidden="true"></i></a>
+    </div>
 </body>
 </html>
